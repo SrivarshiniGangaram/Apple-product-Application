@@ -1,5 +1,5 @@
 # Apple-product-Application
-Our project git hub link is:
+Our project youtube link is:
 https://youtu.be/Myb5ZOhRVDM?feature=shared
 
 We have divided the work into equal parts as
