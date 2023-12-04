@@ -17,9 +17,14 @@ Ensure that the sample data adheres to the defined schema.
 Verify the auto-incrementfunctionality for primary keys.
 Cross-check the compatibility of data across tables.
 
-Varshini Gangaram(M691E884)
+SriVarshini Gangaram(M691E884)
 Helped in documenting the project Supported in fixing few errors.
 Develop sample queries to retrieve information from the tables.
 Write queries to find, for example, the total cost of products including warranty.
 Create queries that involve joins to combine information from multiple tables.
 Draft a report summarizing the database structure and providing example queries.
+
+Our github ids
+SrivarshiniGangaram
+Deepikatanna
+PavaniVedantham
