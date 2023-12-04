@@ -1,0 +1,36 @@
+Our datebase has four tables
+1)accessories
+accessory_Id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) DEFAULT NULL,
+  `type` varchar(50) DEFAULT NULL,
+  `compatibility` varchar(50) DEFAULT NULL,
+  `mode` varchar(50) DEFAULT NULL,
+EX:(1,'AirPods Pro','Earbuds','iPhone/iPad/Mac','Bluetooth'),(2,'Magic Mouse 2','Mouse','Mac','Bluetooth')
+2) computers
+`comp_Id` int NOT NULL AUTO_INCREMENT,
+  `model_name` varchar(50) DEFAULT NULL,
+  `ram` int DEFAULT NULL,
+  `ssd` int DEFAULT NULL,
+  `processor` int DEFAULT NULL,
+EX:(1,'MacBook Pro',16,512,7),(2,'iMac',8,256,5)
+3)mobiles
+ `mobile_Id` int NOT NULL AUTO_INCREMENT,
+  `model_name` varchar(50) DEFAULT NULL,
+  `ram` int DEFAULT NULL,
+  `storage` int DEFAULT NULL,
+  `processor` int DEFAULT NULL,
+EX:(1,'iPhone 13',6,128,15),(2,'iPhone 12 Pro',6,256,14)
+4)warranty
+warranty_Id` int NOT NULL AUTO_INCREMENT,
+  `warranty_period` int DEFAULT NULL,
+  `warranty_price` float DEFAULT NULL,
+  `product_price` float DEFAULT NULL,
+  `product_id` int DEFAULT NULL,
+EX:(1,12,1000,25000,1),(2,18,2000,3500,2)
+
+PRIMARY KEYS
+ 1`accessory_Id`
+ 2)comp_Id`
+ 3)`mobile_Id`
+4)`warranty_Id`
+ 

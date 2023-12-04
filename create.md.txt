@@ -1,0 +1,48 @@
+1)
+DROP TABLE IF EXISTS `accessories`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `accessories` (
+  `accessory_Id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) DEFAULT NULL,
+  `type` varchar(50) DEFAULT NULL,
+  `compatibility` varchar(50) DEFAULT NULL,
+  `mode` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`accessory_Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+2)DROP TABLE IF EXISTS `computers`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `computers` (
+  `comp_Id` int NOT NULL AUTO_INCREMENT,
+  `model_name` varchar(50) DEFAULT NULL,
+  `ram` int DEFAULT NULL,
+  `ssd` int DEFAULT NULL,
+  `processor` int DEFAULT NULL,
+  PRIMARY KEY (`comp_Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+3)CREATE TABLE `mobiles` (
+  `mobile_Id` int NOT NULL AUTO_INCREMENT,
+  `model_name` varchar(50) DEFAULT NULL,
+  `ram` int DEFAULT NULL,
+  `storage` int DEFAULT NULL,
+  `processor` int DEFAULT NULL,
+  PRIMARY KEY (`mobile_Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+4)DROP TABLE IF EXISTS `warranty`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `warranty` (
+  `warranty_Id` int NOT NULL AUTO_INCREMENT,
+  `warranty_period` int DEFAULT NULL,
+  `warranty_price` float DEFAULT NULL,
+  `product_price` float DEFAULT NULL,
+  `product_id` int DEFAULT NULL,
+  PRIMARY KEY (`warranty_Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

@@ -1,0 +1,6 @@
+1.CREATE TABLE apple_products.computers(
+2.CREATE TABLE apple_products.mobiles(
+3.INSERT INTO `mobiles` VALUES (1,'iPhone 13',6,128,15),(2,'iPhone 12 Pro',6,256,14),(3,'iPhone SE (2nd ge
+4.INSERT INTO apple_products.computers (model_name, ram, ssd, processor)
+ADD PRODUCT DETAILS 
+DELET PRODUCT ID
